@@ -24,7 +24,7 @@ Each technique is dynamically applied depending on the use case.
 ## System Architecture
 
 <p align="center">
-  <img src="dao_pipeline.png" width="900"/>
+  <img width="1536" height="1024" alt="dao_pipeline" src="https://github.com/user-attachments/assets/626faf7c-f099-4c9b-9521-969c22860859" />
 </p>
 
 The DAO pipeline consists of:
