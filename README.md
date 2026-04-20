@@ -1,4 +1,4 @@
-# AI Privacy Pipeline (Data Anonymization System)
+# <img width="1024" height="1536" alt="AI Privacy Pipeline" src="https://github.com/user-attachments/assets/9c8ebdce-9071-4501-871f-74a937c24365" /> (Data Anonymization System)
 
 ## Overview
 
@@ -24,7 +24,7 @@ Each technique is dynamically applied depending on the use case.
 ## System Architecture
 
 <p align="center">
-  <img width="1536" height="1024" alt="dao_pipeline" src="https://github.com/user-attachments/assets/626faf7c-f099-4c9b-9521-969c22860859" />
+  <img width="1024" height="1536" alt="AI Privacy Pipeline" src="https://github.com/user-attachments/assets/55003776-1e54-4e9a-b6f2-a55efe518164" />
 </p>
 
 The DAO pipeline consists of:
