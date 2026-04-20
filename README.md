@@ -1,4 +1,4 @@
-# DAO Privacy Pipeline (Data Anonymization Orchestrator)
+# AI Privacy Pipeline (Data Anonymization System)
 
 ## Overview
 
@@ -36,94 +36,6 @@ The DAO pipeline consists of:
 - **Safe Data Transform**
 - **Safe Output & Audit**
 - **Terminal UI**
-
----
-
-## Project Structure
-
-```text
-DAO-MVP/
-│
-├── app.py
-├── iot_edge_security.py
-├── README.md
-├── requirements.txt
-├── dao_pipeline.png
-│
-├── config/
-│   ├── terminal_ui.py
-│   ├── usecase_processors.py
-│   ├── usecase_runner.py
-│   └── usecases.py
-│
-├── core/
-│   ├── differential_privacy.py
-│   ├── k_anonymity.py
-│   ├── pii_detection.py
-│   ├── presidio_masking.py
-│   └── transformers.py
-│
-├── sample_data/
-│   ├── csv_input/
-│   ├── json_input/
-│
-├── output/
-│   ├── Belgian Use Case Renewable Energy Forecasting/
-│   ├── Portuguese Use Case Residential IoT Security/
-│   ├── Turkish Use Case Enterprise Endpoint Management/
-│   └── UK Use Case Commercial Multi-Site Management/
-│
-└── venv/
-````
-
----
-
-## Use Cases
-
-### 🇵🇹 Portuguese Use Case – IoT Security
-
-* Regex-based log parsing
-* MAC address pseudonymization
-* IP masking
-* RF generalization
-
----
-
-### 🇹🇷 Turkish Use Case – Endpoint Management
-
-* K-Anonymity grouping
-* Attribute generalization
-* Data masking
-
----
-
-### 🇬🇧 UK Use Case – Multi-Site Management
-
-* Site generalization
-* Timestamp rounding
-* Session masking
-
----
-
-### 🇧🇪 Belgian Use Case – Energy Forecasting
-
-* Differential Privacy (noise injection)
-* Aggregation & smoothing
-* Location precision reduction
-
----
-
-## Technology Mapping
-
-| Technique            | Portuguese | Turkish | UK | Belgian |
-| -------------------- | ---------- | ------- | -- | ------- |
-| Regex                | ✔️         | ❌     | ❌ | ❌     |
-| Hashing              | ✔️         | ❌     | ❌ | ❌     |
-| Masking              | ✔️         | ✔️     | ✔️ | ❌     |
-| K-Anonymity          | ❌         | ✔️     | ❌ | ❌     |
-| Differential Privacy | ❌         | ❌     | ❌ | ✔️     |
-| Generalization       | ✔️         | ✔️     | ✔️ | ✔️     |
-| Aggregation          | ✔️         | ✔️     | ✔️ | ✔️     |
 
 ---
 
@@ -240,4 +152,4 @@ This system demonstrates that:
 ## Author
 
 **Abdallah Elgamasy**
-Cybersecurity Department – BLC
+Software Engineering Student
